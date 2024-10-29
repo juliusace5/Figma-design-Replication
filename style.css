@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(226, 225, 223);
+    padding: 3rem;
+}
+
+.Container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.Words h2{
+    color: hsla(259, 74%, 20%, 1);
+    ;
+    font-family: Helvetica;
+font-size: 64px;
+    font-weight: 700;
+}
+
+.imagine {
+    display: inline-block;  
+    text-align: center;  
+    line-height: 1.2;   
+    margin: 0;    
+    padding: 0;  
+}
+
+.imagine h2 {
+    font-family: Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    color: hsla(259, 74%, 20%, 1);
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.one h2{
+    color: #8456EC !important;; 
+}
+
+
+.Words p{
+    font-family: Helvetica;
+font-size: 24px;
+font-weight: 300;
+color: hsla(0, 0%, 31%, 1);
+
+
+}
+
+button{
+    background-color: #8456EC;
+    color: white;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 20px ;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #E87BF8;
+}
+.Imagequery{
+    display: none;
+}
+.Hide{
+    display: none;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+  .Container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    text-align: right;
+  }
+  .Words h2{
+font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+    text-align: right;
+}
+.one{
+    margin-top: 0rem;
+    color: #8456EC !important;; 
+}
+.two{
+    margin-top: 0rem;
+}
+.easy{
+font-size: 18px;
+font-weight: 300;
+color: hsla(0, 0%, 31%, 1);
+width: 100%;
+text-align: right;
+
+}
+  .Imagequery{
+    display: block;
+}
+.Image{
+    display: none;
+}
+.Hide{
+    display: block;
+    text-align: right;
+}
+  .movie img{
+    width: 150%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        background-color: rgb(226, 225, 223);
+        padding: 3rem;
+    }
+    
+    .Container{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .Words h2{
+        color: hsla(259, 74%, 20%, 1);
+        ;
+        font-family: Helvetica;
+    font-size: 60px;
+        font-weight: 700;
+    }
+    
+    .imagine {
+        display: inline-block;  
+        text-align: center;  
+        line-height: 1.2;   
+        margin: 0;    
+        padding: 0;  
+    }
+    
+    .imagine h2 {
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: 700;
+        color: hsla(259, 74%, 20%, 1);
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    
+    .one h2{
+        color: #8456EC !important;; 
+    }
+    
+    
+    .Words p{
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    color: hsla(0, 0%, 31%, 1);
+    
+    
+    }
+    
+    button{
+        background-color: #8456EC;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: Helvetica;
+        font-size: 10px ;
+        font-weight: 700;
+    }
+    
+    button:hover{
+        background-color: #E87BF8;
+    }
+    .Imagequery{
+        display: none;
+    }
+    .Hide{
+        display: none;
+    }
+    .movie img{
+        width: 90%;
+      }
+}
+
